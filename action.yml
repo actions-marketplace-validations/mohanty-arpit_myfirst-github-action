@@ -1,0 +1,8 @@
+name: myfirst-github-action
+description: does nothing just echoes
+
+runs:
+  using: "composite"
+  steps:
+    - name: Echo something
+      run: echo Hello World from Arpit
