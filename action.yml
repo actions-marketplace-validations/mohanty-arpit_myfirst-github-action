@@ -5,4 +5,5 @@ runs:
   using: "composite"
   steps:
     - name: Echo something
+      shell: bash
       run: echo Hello World from Arpit
